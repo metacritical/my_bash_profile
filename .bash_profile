@@ -3,7 +3,7 @@
 #alias cmis,ssh u64301143@s375123640.onlinehome.us
 echo "$(tput setaf 7)$(tput setab 1)Select an app:$(tput sgr0)"
 tput setaf 3
-select i in irb emacs macirb rubinius jruby node.js gnu-smalltalk gnu-lisp cmucl io-lang lua bash opt vim git-clone source
+select i in irb emacs macirb rubinius jruby node.js gnu-smalltalk gnu-lisp cmucl io-lang lua clojure bash opt vim git-clone source
 do
   tput setaf 3
   case $i in
@@ -18,6 +18,7 @@ do
  	gnu-lisp) clisp;;
  	io-lang) io;;
 	lua) lua;;
+        clojure) cljrl;;
  	opt) echo "Type opt when in bash for this menu.";;
  	source) source /Users/pankajdoharey/.bash_profile;;
  	git-clone) cd ~/Development;echo "$(git clone $(pbpaste))";;
