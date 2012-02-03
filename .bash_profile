@@ -32,4 +32,4 @@ export PS1="\n\[$(tput setaf 6)\] \[$HOME$(tput setaf 7)\]\w\n \[$(tput setaf 5)
 export PATH="./bin:$PATH"
 #export PS1="$(pwd)/\w\n>"
 export JRUBY_OPTS=--1.8
-
+#export RUBYOPT=rubygems
