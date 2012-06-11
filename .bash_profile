@@ -3,7 +3,10 @@ alias cmis="ssh u64301143@s375123640.onlinehome.us"
 alias cljrl="rlwrap --quote-characters=\"'\" --command clojure clj"
 alias sirb="irb --simple-prompt"
 alias gi="gem install "
-alias gcl='git clone $(pbpaste)'
+alias gcl="git clone `pbpaste`"
+alias beg="bundle exec guard"
+
+
 
 echo "$(tput setaf 7)$(tput setab 1)Select an app:$(tput sgr0)"
 tput setaf 3
